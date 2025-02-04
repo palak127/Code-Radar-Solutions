@@ -4,13 +4,13 @@
 
 int main() {
    scanf("%d",&a);
-   if (a%2==0)
+   if (a%2!=0)
    {
-    printf("Even")
+    printf("Odd")
 
    }
    else
    {
-    printf("Odd")
+    printf("Even")
    }
 }
