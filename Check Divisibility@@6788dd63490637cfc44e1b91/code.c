@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
    int a,b;
    scanf("%d",&a);
-   if (a%5=0 && a%11=0)
+   if (a%5==0 && a%11==0)
    {
     printf("Divisible");
 
