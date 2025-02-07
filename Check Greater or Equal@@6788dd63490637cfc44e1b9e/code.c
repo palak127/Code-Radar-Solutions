@@ -12,7 +12,7 @@ int main() {
         printf("No");
     }
     else{
-        printf("Equal");
+        printf("Yes");
     }
     return 0;
 }
