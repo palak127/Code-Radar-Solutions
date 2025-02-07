@@ -7,12 +7,12 @@ int main() {
     {
         printf("Yes");
     }
-    else if(a=b)
+    else if(a<b)
     {
-        printf("Equal");
+        printf("No");
     }
     else{
-        printf("No");
+        printf("Equal");
     }
     return 0;
 }
