@@ -5,7 +5,7 @@ int main()
     scanf("%d",&a);
     for (i=0;i<=a;i++)
     {
-        printf("%d/n",a);
+        printf("%d",a);
     }
     return 0;
 }
