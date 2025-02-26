@@ -7,7 +7,9 @@ int main()
     {
         for(int j=1;j<=n;j++)
         {
-            printf("*");
+             if(i==n/2+1 || j==n/2+1)printf("#");
+             else
+             printf("#");
             }
             printf("\n");
     }
