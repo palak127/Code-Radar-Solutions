@@ -9,7 +9,7 @@ int main()
         {
              if(i==n/2+1 || j==n/2+1)printf("#");
              else
-             printf("#");
+             printf("*");
             }
             printf("\n");
     }
