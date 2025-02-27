@@ -9,10 +9,10 @@ int main()
 
     for(i = 1; i <= rows; ++i)
      {
-        for(j = i; j < rows; ++j) {
+        for(j = i; j < i; ++j) {
             printf(" ");  // Print space for alignment
         }
-        for(k = 1; k <= (j-1); ++k) {
+        for(k = 1; k <= (j); ++k) {
             printf("%d",k);
         }
         printf("\n");
