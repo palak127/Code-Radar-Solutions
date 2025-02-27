@@ -12,7 +12,7 @@ int main()
         for(j = i; j < rows; ++j) {
             printf(" ");  // Print space for alignment
         }
-        for(k = 1; k <= (j); ++k) {
+        for(k = 1; k <= (j+1); ++k) {
             printf("%d",k);
         }
         printf("\n");
