@@ -8,13 +8,14 @@ void reverse( int arr[],int a,int b)
         arr[j]=temp;
     }
 }
-    
+    int main()
+    {
     int n;
     scanf("%d", &n);
     int k;
     scanf("%d",&k);
-    int main()
-    {
+    
+    
         k=k%n;
         reverse(arr,0,n-1)
         reverse(arr,0,k-1)
