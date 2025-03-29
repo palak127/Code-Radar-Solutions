@@ -2,9 +2,10 @@
 int main() {
     int n;
     scanf("%d",&n);
+    printf("%d",n);
     int arr[n],b,i;
     
-    printf("%d",n);
+    
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
