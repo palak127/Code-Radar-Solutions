@@ -7,12 +7,12 @@ int main() {
    int arr[n],i;
    int counteven=0;
    int countodd=0;
-   for(i=1;i<=n;i++)
+   for(i=0;i<n;i++)
    {
     scanf("%d",&arr[i]);
     //printf("%d ",arr[i]);
    
-    if(arr[n]%2!=0)
+    if(arr[i]%2!=0)
     {
         countodd++;
     }
