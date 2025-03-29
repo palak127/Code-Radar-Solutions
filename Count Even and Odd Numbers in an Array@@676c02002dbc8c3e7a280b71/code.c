@@ -22,6 +22,6 @@ int main() {
     }
 
    }
-   printf("\n%d %d",counteven,countodd);
+   printf("%d %d",counteven,countodd);
    
    }
