@@ -12,6 +12,7 @@ int main() {
    {
     scanf("%d",&arr[i]);
     printf("%d ",arr[i]);
+    printf("\n");
     if(n%2==0)
     {
         counteven++;
