@@ -7,7 +7,7 @@ int n,i;
     int brr[n];
     for(i=0;i<n;i++)
     {
-        scanf("%d",&arr[n]);
+        scanf("%d",&arr[I]);
         //printf("%d",arr[n]);
        
     }
