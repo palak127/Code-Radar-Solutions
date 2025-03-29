@@ -15,7 +15,7 @@ int n,i;
        }
        else
        {
-        PRINTF("NO");
+        printf("NO");
        }
     }
 
