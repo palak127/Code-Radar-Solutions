@@ -12,7 +12,7 @@ int main() {
     scanf("%d",&arr[i]);
     //printf("%d ",arr[i]);
    
-    if(n%2!=0)
+    if(arr[n]%2!=0)
     {
         countodd++;
     }
