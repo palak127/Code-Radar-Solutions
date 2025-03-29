@@ -13,7 +13,7 @@ int main
        {
         printf("YES");
        }
-       ELSE
+       else
        {
         PRINTF("NO");
        }
