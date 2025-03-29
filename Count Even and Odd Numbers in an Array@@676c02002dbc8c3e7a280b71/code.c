@@ -12,13 +12,13 @@ int main() {
     scanf("%d",&arr[i]);
     //printf("%d ",arr[i]);
    
-    if(n%2==0)
+    if(n%2!=0)
     {
-        counteven++;
+        countodd++;
     }
     else
     {
-        countodd++;
+        counteven++;
     }
 
    }
