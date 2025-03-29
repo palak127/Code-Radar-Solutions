@@ -8,7 +8,6 @@ int main() {
     
     for(i=0;i<n;i++)
     {
-        printf("enter numbers");
         scanf("%d",&arr[i]);
         if (max<arr[i])
         {
