@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 int main() {
+    int n;
     scanf("%d",&n);
+    printf("%d",n);
    int arr[n],i;
    int counteven=0;
    int countodd=0;
