@@ -9,7 +9,7 @@ int main
     {
         scanf("%d",&arr[n]);
         printf("%d",arr[n]);
-       if( brr[7]=arr[n-i])
+       if( brr[7]==arr[n-i])
        {
         printf("YES");
        }
