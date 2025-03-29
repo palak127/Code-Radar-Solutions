@@ -11,11 +11,12 @@ void reverse( int arr[],int a,int b)
     int main()
     { 
        
-    int n,i;
+    int n,i,k;
     scanf("%d", &n);
-     int arr[n];
-    int k;
+    int arr[n];
+   
     scanf("%d",&k);
+     
     
     
         k=k%n;
