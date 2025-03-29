@@ -9,7 +9,9 @@ int n,i;
     {
         scanf("%d",&arr[n]);
         printf("%d",arr[n]);
-       if( brr[7]==arr[n-i])
+       
+    }
+    if( brr[7]==arr[n-i])
        {
         printf("YES");
        }
@@ -17,6 +19,5 @@ int n,i;
        {
         printf("NO");
        }
-    }
 
 }
