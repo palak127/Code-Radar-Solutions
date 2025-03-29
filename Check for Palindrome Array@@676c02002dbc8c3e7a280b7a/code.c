@@ -11,7 +11,7 @@ int n,i;
         //printf("%d",arr[n]);
        
     }
-    if( brr[7]==arr[n-i])
+    if( brr[n]==arr[n-i])
        {
         printf("YES");
        }
