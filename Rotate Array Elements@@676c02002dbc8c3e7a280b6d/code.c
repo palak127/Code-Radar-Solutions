@@ -11,7 +11,7 @@ void reverse( int arr[],int a,int b)
     int main()
     { 
        
-    int n;
+    int n,i;
     scanf("%d", &n);
      int arr[n];
     int k;
