@@ -4,14 +4,13 @@
 int main() {
     int n;
     scanf("%d",&n);
-    printf("%d\n",n);
-   int arr[n],i;
+//   int arr[n],i;
    int counteven=0;
    int countodd=0;
    for(i=0;i<n;i++)
    {
     scanf("%d",&arr[i]);
-    printf("%d ",arr[i]);
+    //printf("%d ",arr[i]);
    
     if(n%2==0)
     {
