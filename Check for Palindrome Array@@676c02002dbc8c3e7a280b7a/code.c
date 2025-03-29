@@ -11,13 +11,18 @@ int n,i;
         //printf("%d",arr[n]);
        
     }
-    if( brr[n]==arr[n-i])
-       {
-        printf("YES");
-       }
-       else
-       {
-        printf("NO");
-       }
+    int isPalindrome = 1;  // Assume it's a palindrome
+    for (i = 0; i < n; i++) {
+        if (arr[i] != brr[i]) {
+            isPalindrome = 0;  // Not a palindrome
+            break;
+        }
+    }
 
+    // Output result
+    if (isPalindrome) {
+        printf("YES\n");  // ✅ Palindrome
+    } else {
+        printf("NO\n");   // ❌ Not a palindrome
+    }
 }
