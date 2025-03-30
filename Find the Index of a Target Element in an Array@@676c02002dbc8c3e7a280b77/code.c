@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    flag;
+    int flag=-1;
     scanf("%d",&n);
     int arr[n];
     int k;
@@ -13,14 +13,14 @@ int main()
         
     }
     int i;
-    if(k==arr[i])
-        {   flag=0;
+    for(int i = 0; i < n; i++) {
+    if(arr[i]==k)
+        {   flag=i;
             printf("%d",i);
             break;
         }
-    else
-    {
-        flag=-1;
-        printf("%d",flag);
+    
+
     }
+    printf("%d",flag);
 }
