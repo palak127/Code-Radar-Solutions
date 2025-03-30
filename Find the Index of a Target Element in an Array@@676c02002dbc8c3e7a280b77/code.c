@@ -2,6 +2,7 @@
 int main()
 {
     int n;
+    flag;
     scanf("%d",&n);
     int arr[n];
     int k;
@@ -13,11 +14,13 @@ int main()
     }
     int i;
     if(k==arr[i])
-        {
+        {   flag=0;
             printf("%d",i);
+            break;
         }
     else
     {
-        printf("-1");
+        flag=-1;
+        printf("%d",flag);
     }
 }
