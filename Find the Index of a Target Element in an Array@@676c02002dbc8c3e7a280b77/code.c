@@ -5,14 +5,14 @@ int main()
     int flag=-1;
     scanf("%d",&n);
     int arr[n];
-    int k;
     for(int i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
         
         
     }
-    int i;
+    int i,k;
+    scanf("%d",&k);
     for(int i = 0; i < n; i++) {
     if(arr[i]==k)
         {   flag=i;
