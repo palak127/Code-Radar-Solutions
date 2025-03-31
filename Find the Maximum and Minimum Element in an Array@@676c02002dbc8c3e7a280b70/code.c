@@ -10,19 +10,18 @@ int main() {
     {
         scanf("%d",&arr[i]);
     }
-     int max=arr[0],min=arr[n];
+    
     for(i=1;i<n;i++)
     {
 
-    
-        if (max<arr[i])
+    if (arr[0]<arr[i])
         {
-            max=arr[i];
+            arr[0]=arr[i];
             
         }
-        if (min>arr[i]);
+        if (arr[0]<arr[i]);
         {
-            min=arr[i];
+            arr[0]=arr[i];
         }
         
     }
