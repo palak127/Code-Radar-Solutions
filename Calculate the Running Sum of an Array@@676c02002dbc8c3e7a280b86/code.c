@@ -10,7 +10,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        b=b+arr[n];
+        b=b+arr[i];
         printf(" %d",b);
     }
 
