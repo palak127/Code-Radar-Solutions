@@ -1,27 +1,31 @@
-// Your code here...
 #include <stdio.h>
-#include <limits.h>
+
 int main() {
     int n;
-    scanf("%d",&n);
-    int arr[n],i;
-    int max=arr[0];
-    int smax=arr[0];
-    for (i=0;i<n;i++)
-    {
-        scanf("%d",&arr[i]);
-        if (max<arr[i])
-        {
-            smax=max;
-            max=arr[i];
-        }
-        else if(smax<arr[i] && max!=arr[i])
-        {
-            smax=arr[i];
-        }
-       
+    scanf("%d", &n);
+
+    int arr[n], i;
+
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    printf("%d",smax);
+
+    int max = arr[0],min=arr[0];
+
+    // Traverse the array to find max and min
+    for (i = 1; i < n; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+        if (arr[i] > min) {
+            min = arr[i];
+        }
+    }
+
+    // Print results
+    printf("%d %d", min);
+
+    return 0;
 }
 
 
