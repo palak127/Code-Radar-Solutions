@@ -23,7 +23,7 @@ int main() {
     }
 
     // Print results
-    printf("%d %d", min);
+    printf("%d", min);
 
     return 0;
 }
