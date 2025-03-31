@@ -10,7 +10,8 @@ int main()
         if(arr[n]==arr[i])
         {
             count=2;
-            printf("%d",arr[i]);
+            
         }
     }
+    printf("%d",arr[i]);
 }
