@@ -17,10 +17,7 @@ int main()
             count++;
             
         }
-        else
-        {
-            printf("-1");
-        }
+        
     }
 }
 printf("%d",count);
