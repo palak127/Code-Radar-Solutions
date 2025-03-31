@@ -22,7 +22,7 @@ int main() {
     }
 
     // Print results
-    printf("Max: %d\nMin: %d\n", max, min);
+    printf(" %d %d", min, max);
 
     return 0;
 }
