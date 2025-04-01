@@ -28,7 +28,7 @@ int main() {
     }
     if(smax==-1)
     {
-        printf("no");
+        printf("%d",smax);
     }
     else
     {
