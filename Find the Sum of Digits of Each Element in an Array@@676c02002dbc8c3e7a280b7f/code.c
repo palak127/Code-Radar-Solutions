@@ -10,13 +10,16 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        while (arr[i]!=0)
+        int num=arr[i],sum=0;
+        while (num!=0)
         {
-            int a=arr[i]%10;
-            sum=sum+a;
-            i++;
-            printf("%d ",sum);
+            int
+            sum=sum+num%10;
+            num/=10;
+            
+            
         }
+        printf("%d ",sum);
         
     }
    
