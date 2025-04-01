@@ -9,6 +9,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
+    k=k%n;
     for(int i=k;i>0;i--)
     {
         printf("%d ",arr[n-i]);
