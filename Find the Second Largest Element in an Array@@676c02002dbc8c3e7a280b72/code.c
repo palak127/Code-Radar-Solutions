@@ -12,7 +12,7 @@ int main() {
 
     int max = arr[0];
 
-    // Traverse the array to find max and min
+    
     for (i = 1; i < n; i++) {
         if (arr[i] > max) {
             max = arr[i];
