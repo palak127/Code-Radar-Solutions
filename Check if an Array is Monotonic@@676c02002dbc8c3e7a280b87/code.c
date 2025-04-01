@@ -9,18 +9,18 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-     for (int i = 0; i < n - 1; i++) {
+     int increasing = 1, decreasing = 1;
+
+    for (int i = 0; i < n - 1; i++) {
         if (arr[i] > arr[i + 1]) {
-            sort = 0;  // Not sorted
-            break;
+            increasing = 0;  // Not non-decreasing
         }
-        // if(arr[i]<arr[i+1])
-        // {
-        //     sort =0;
-        //     break;
-        // }
+        if (arr[i] < arr[i + 1]) {
+            decreasing = 0;  // Not non-increasing
+        }
     }
-     if (sort == 1) {
+
+    if (increasing || decreasing) {
         printf("YES");
     } else {
         printf("NO");
