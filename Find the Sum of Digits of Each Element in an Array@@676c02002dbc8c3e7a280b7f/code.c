@@ -12,7 +12,7 @@ int main()
     {
         while (arr[i]!=0)
         {
-            a=arr[i]%10;
+            int a=arr[i]%10;
             sum=sum+a;
         }
         printf("%d",sum);
