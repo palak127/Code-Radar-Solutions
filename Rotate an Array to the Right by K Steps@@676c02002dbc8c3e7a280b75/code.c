@@ -9,11 +9,11 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
-    for(i=k;i>0;i--)
+    for(int i=k;i>0;i--)
     {
         printf("%d",arr[n-i]);
     }
-    for(i=0;i<n-k;i++)
+    for(int i=0;i<n-k;i++)
     {
         printf("%d",arr[i]);
     }
