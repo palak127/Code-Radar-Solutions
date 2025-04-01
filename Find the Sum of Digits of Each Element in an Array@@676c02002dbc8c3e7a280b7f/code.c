@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+
 int main()
 {
     int n;
@@ -10,7 +12,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        int num=arr[i],sum=0;
+        int num=abs(arr[i]),sum=0;
         while (num!=0)
         {
             
