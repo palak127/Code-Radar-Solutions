@@ -10,7 +10,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        while arr[i]!=0
+        while (arr[i]!=0)
         {
             a=arr[i]%10;
             sum=sum+a;
