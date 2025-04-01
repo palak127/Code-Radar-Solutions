@@ -14,11 +14,11 @@ int main()
             sort = 0;  // Not sorted
             break;
         }
-        if(arr[i]<arr[i+1])
-        {
-            sort =0;
-            break;
-        }
+        // if(arr[i]<arr[i+1])
+        // {
+        //     sort =0;
+        //     break;
+        // }
     }
      if (sort == 1) {
         printf("YES");
