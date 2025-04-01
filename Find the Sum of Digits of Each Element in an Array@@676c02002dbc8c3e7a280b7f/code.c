@@ -14,7 +14,7 @@ int main()
         {
             int a=arr[i]%10;
             sum=sum+a;
-            a++;
+            i++;
         }
         printf(" %d",sum);
     }
