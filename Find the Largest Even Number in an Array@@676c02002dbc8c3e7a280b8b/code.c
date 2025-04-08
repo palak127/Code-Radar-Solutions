@@ -15,10 +15,10 @@ int main()
         {
             max=arr[0];
         }
-        else
-        {    
-            printf("-1");
-        }
+        // else
+        // {    
+        //     printf("-1");
+        // }
     }
     printf("%d",max);
 
